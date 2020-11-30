@@ -1,0 +1,12 @@
+server:
+  port: 8088
+
+spring:
+  application:
+    name: adventureworks-configserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/jtoulier/bootcamp-adventureworks-configserver-repo.git
+          default-label: main
