@@ -1,9 +1,9 @@
 server:
-  port: 8088
+  port: 8888
 
 spring:
   application:
-    name: adventureworks-configserver
+    name: configserver
   cloud:
     config:
       server:
